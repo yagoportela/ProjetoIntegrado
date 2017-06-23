@@ -1,0 +1,47 @@
+.geral {
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+  hr {
+    width: 50%;
+  }
+  h4 {
+    text-decoration: uppercase !important;
+    color: white;
+  }
+}
+
+.texto_lateral {
+  padding: 30px 20px ;
+  background-color: #53599A;
+  color: white;
+  border-radius: 15px 0 0 15px
+  
+}
+
+.formulario_login {
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 5em 0 5em;
+    background-color: #E0FBFC;
+    padding-top: 80px;
+    border-radius: 0 15px 15px 0;
+    input {
+      border-radius: 15px;
+    }
+    label {
+      display: none;
+    }
+
+    button {
+      border-radius: 20px;
+      background-color: #9DB4C0;
+      padding: 15px 80px 15px 80px;
+      &:hover {
+        background-color: #53599A;
+      }
+    }
+
+}
+

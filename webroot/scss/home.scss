@@ -1,0 +1,124 @@
+$card: #2E5EAA;
+$bgfundo: #191923;
+$fonte: 'Raleway', sans-serif;
+$conteudo-fonte: 'Open Sans', sans-serif;
+
+.menu {
+  display: flex;
+  justify-content: center;
+    background-color: #3C4042;
+    height: 50px;
+}
+.menu__topo {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+
+
+  li{
+    list-style-type: none;
+    margin-right: 10px;
+    margin: 0 1.2em;
+    overflow: hidden;
+    a{
+      text-decoration: none;
+      font-family: $conteudo-fonte;
+      color: #FBFEF9;
+      &:visited {
+      color: #FBFEF9;
+     
+      }
+    }
+    a:hover {
+      color: #E58F65;
+    }
+
+     a:before, a:after {
+      position: absolute;
+      -webkit-transition: all 0.35s ease;
+      transition: all 0.35s ease;
+
+  }
+  a:before {
+    right: 100%;
+    display: block;
+    width: 3px;
+    height: 100%;
+    content: "";
+    background-color: #f39c12;
+  }
+
+  a:after {
+    padding: 0 0.5em 0 0.2em;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
+  }
+}
+
+}
+
+.slider {
+  background-color: #E58F65;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0 10em 0 10em;
+  }
+
+.conteudo {
+    width: calc(100% / 3);
+    display: inline-block;
+    border: 1px solid #c8c8c8;
+    font-family: $fonte;
+    margin: 10px;
+
+    p{
+      text-align: justify;
+      padding:0 25px;
+      color: #3C4042;
+    }
+
+  div{
+    margin-top: 10px;
+  }
+
+  .leia-mais{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #9DB4C0;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 6px #f8f8f8;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    i{
+      color: #fff;
+    }
+
+  }
+  .leia-mais a{
+    text-decoration: none;
+    color: white;
+    font-family: $conteudo-fonte;
+  }
+  
+  img{
+    width: 100%;
+
+  }
+
+  .leia-mais:hover {
+    background-color: #53599A;
+  }
+}

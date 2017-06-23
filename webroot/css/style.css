@@ -1,0 +1,170 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #3C4042;
+  height: 50px; }
+
+.menu__topo {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease; }
+  .menu__topo li {
+    list-style-type: none;
+    margin-right: 10px;
+    margin: 0 1.2em;
+    overflow: hidden; }
+    .menu__topo li a {
+      text-decoration: none;
+      font-family: "Open Sans", sans-serif;
+      color: #FBFEF9; }
+      .menu__topo li a:visited {
+        color: #FBFEF9; }
+    .menu__topo li a:hover {
+      color: #E58F65; }
+    .menu__topo li a:before, .menu__topo li a:after {
+      position: absolute;
+      -webkit-transition: all 0.35s ease;
+      transition: all 0.35s ease; }
+    .menu__topo li a:before {
+      right: 100%;
+      display: block;
+      width: 3px;
+      height: 100%;
+      content: "";
+      background-color: #f39c12; }
+    .menu__topo li a:after {
+      padding: 0 0.5em 0 0.2em;
+      position: absolute;
+      right: 100%;
+      top: 0;
+      content: attr(data-hover);
+      color: white;
+      white-space: nowrap; }
+
+.slider {
+  background-color: #E58F65; }
+
+.content-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10em 0 10em; }
+
+.conteudo {
+  width: calc(100% / 3);
+  display: inline-block;
+  border: 1px solid #c8c8c8;
+  font-family: "Raleway", sans-serif;
+  margin: 10px; }
+  .conteudo p {
+    text-align: justify;
+    padding: 0 25px;
+    color: #3C4042; }
+  .conteudo div {
+    margin-top: 10px; }
+  .conteudo .leia-mais {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #9DB4C0;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0 6px #f8f8f8;
+    border-radius: 15px;
+    margin-bottom: 10px; }
+    .conteudo .leia-mais i {
+      color: #fff; }
+  .conteudo .leia-mais a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif; }
+  .conteudo img {
+    width: 100%; }
+  .conteudo .leia-mais:hover {
+    background-color: #53599A; }
+
+.geral {
+  display: flex;
+  justify-content: center;
+  padding-top: 5em; }
+  .geral hr {
+    width: 50%; }
+  .geral h4 {
+    text-decoration: uppercase !important;
+    color: white; }
+
+.texto_lateral {
+  padding: 30px 20px;
+  background-color: #53599A;
+  color: white;
+  border-radius: 15px 0 0 15px; }
+
+.formulario_login {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 5em 0 5em;
+  background-color: #E0FBFC;
+  padding-top: 80px;
+  border-radius: 0 15px 15px 0; }
+  .formulario_login input {
+    border-radius: 15px; }
+  .formulario_login label {
+    display: none; }
+  .formulario_login button {
+    border-radius: 20px;
+    background-color: #9DB4C0;
+    padding: 15px 80px 15px 80px; }
+    .formulario_login button:hover {
+      background-color: #53599A; }
+
+.customers label {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px; }
+.customers fieldset {
+  background-color: #53599A;
+  margin-left: 10em; }
+.customers label {
+  color: white; }
+.customers input {
+  box-shadow: 3px 3px #c8c8c8;
+  border-radius: 10px; }
+
+#actions-sidebar {
+  display: none; }
+
+.botao-cadastro {
+  border-radius: 20px;
+  background-color: #9DB4C0;
+  margin-left: 10em; }
+  .botao-cadastro:hover {
+    background-color: #53599A; }
+
+.providers label {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px; }
+.providers fieldset {
+  background-color: #53599A;
+  margin-left: 10em; }
+.providers label {
+  color: white; }
+.providers input {
+  box-shadow: 3px 3px #c8c8c8;
+  border-radius: 10px; }
+
+#actions-sidebar {
+  display: none; }
+
+.botao-cadastro {
+  border-radius: 20px;
+  background-color: #9DB4C0;
+  margin-left: 10em; }
+  .botao-cadastro:hover {
+    background-color: #53599A; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
